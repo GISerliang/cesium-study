@@ -1,0 +1,28 @@
+{
+  "name": "cesium-study",
+  "version": "0.0.1",
+  "scripts": {
+    "init": "webpack --progress --config webpack.config.js",
+    "dev": "webpack-dev-server --inline --progress --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GISerliang/cesium-study.git"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "devDependencies": {
+    "cesium": "^1.55.0",
+    "copy-webpack-plugin": "^5.0.1",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
